@@ -1,0 +1,18 @@
+1. npm init -y
+2. npm install prisma typescript ts-node @types/node --save-dev
+
+3. npx tsc --init
+4. npx prisma
+5. npx prisma init  //to initialize prisma in your project.
+
+6.some changes: .env files & schema.prisma files
+
+7.npx prisma migrate dev    //migrate your schema
+
+8. npx prisma --version
+
+9. npx prisma generate  //to generate prisma client
+
+10. npx prisma db_name pull //update your prisma schema
+
+11. npx prisma studio   //open prisma studio

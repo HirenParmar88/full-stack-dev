@@ -1,0 +1,27 @@
+// one time :
+1. git config --global user.name"HirenParmar88"
+2. git config --global user.email"your_email"
+PS E:\full stack> git config --global user.name
+HirenParmar88
+PS E:\full stack> git config --global user.email
+hirenparmar5105@gmail.com
+
+//while you create new repository
+3. git init
+4. git status
+5. git remote add origin repo_link..
+6. git remote -v    //show current repo repo_link
+
+7. git branch -a    //show all branches
+
+//while you rename your branch
+8. git branch -m main   //rename the branch
+9. git status
+
+//everyday add commit and push code 
+10. git add .
+11. git commit -m "new commit msg.."
+12. git push origin main
+13. git log     //show all commit
+
+14. git pull origin main    //to access local
